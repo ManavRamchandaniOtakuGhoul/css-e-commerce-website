@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: right;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+p {
+  color: #555;
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col-2 {
+  flex-basis: 50%;
+  min-width: 300px;
+}
+
+.col-2 img {
+  max-width: 100%;
+  padding: 50px 0;
+}
+
+.col-2 h1 {
+  font-size: 50px;
+  line-height: 50px;
+  padding: 25px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 30px;
+  background-color: #ff523b;
+  color: white;
+  border-radius: 30px;
+  margin: 30px 0;
+  transition: background-color 0.7s ease;
+}
+
+.btn:hover {
+  background-color: #563434;
+  /* color: aqua; */
+}
+
+.header {
+  background: radial-gradient(white, #ffd6d6);
+  /* background: #ffd6d6; */
+}
+
+.header .row {
+  margin-top: 70px;
+}
+
+.categories {
+  margin: 70px 0;
+}
+
+.col-3 {
+  min-width: 250px;
+  flex-basis: 30%;
+  margin-bottom: 30px;
+}
+
+.col-3 img {
+  max-width: 100%;
+}
+
+.small-container {
+  max-width: 1080px;
+  margin: auto;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.col-4 {
+  min-width: 200px;
+  flex-basis: 25%;
+  padding: 10px;
+  margin-bottom: 50px;
+  transition: 0.5s;
+}
+
+.col-4 img {
+  max-width: 100%;
+}
+
+.tittle {
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: #555;
+}
+
+.tittle::after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 5px;
+  background: #ff523b;
+  border-radius: 5px;
+  transform: translateX(-50%);
+  bottom: 0;
+  left: 50%;
+}
+
+h4 {
+  font-weight: normal;
+  color: #555;
+  margin-top: 4px;
+}
+
+.rating .fa-solid {
+  color: #ff523b;
+  margin: 4px 0;
+}
+
+.rating .fa-regular {
+  color: #ff523b;
+  display: inline-block;
+  margin: 4px 0;
+}
+
+.col-4 p {
+  font-size: 14px;
+}
+
+.col-4:hover {
+  transform: translateY(-5px);
+}
+
+/* ------------------------ Offer ----------------------- */
+
+.offer {
+  background: radial-gradient(white, #ffd6d6);
+  margin-top: 80px;
+  padding: 30px 0;
+}
+
+.col-2 .offer-img {
+  padding: 50px;
+}
+
+small {
+  color: #555;
+}
+
+.testimonial {
+  margin: 70px 0;
+}
+
+.col-5 {
+  min-width: 250px;
+  flex-basis: 30%;
+}
